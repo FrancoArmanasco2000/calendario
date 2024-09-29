@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Geist";
+  src: url("https://pham.codes/d/GeistVF.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'cascadia code', sans-serif;
+}
+

@@ -1,0 +1,41 @@
+.container-dia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 4rem;
+    height: 4rem;
+    color: white;
+    border-style: solid;
+    border-radius: 3.25rem;
+    border-color: rgb(54, 54, 58);
+    padding: .3125rem;
+    cursor: pointer;
+}
+
+.dia-seleccionado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 3.25rem;
+    padding: .3125rem;
+    border-style: solid;
+    border-color: rgb(38,98,217);
+}
+
+.dia-info {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF4EA;
+    border-radius: 10px;
+    width: 25.25rem;
+    height: 30.25rem;
+    border-style: solid;
+    
+}
